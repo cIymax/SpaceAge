@@ -1,0 +1,1438 @@
+Archive member included because of file (symbol)
+
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                              uzeboxVideoEngine.o (__udivmodqi4)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              uzeboxVideoEngine.o (__udivmodhi4)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                              uzeboxSoundEngine.o (__divmodhi4)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              uzeboxVideoEngine.o (__udivmodsi4)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644.o (exit)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              uzeboxVideoEngine.o (__do_copy_data)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              uzeboxCore.o (__do_clear_bss)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+                              game.o (rand)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o) (__mulsi3)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                              c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o) (__divmodsi4)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o) (__prologue_saves__)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+dirty               0x1               game.o
+block_oldsprite     0x1               game.o
+paused              0x1               game.o
+songStart           0x2               uzeboxSoundEngine.o
+block_x             0x1               game.o
+block_trigger       0x1               game.o
+player_dir          0x1               game.o
+baddie_callb        0x3               game.o
+player_y            0x2               game.o
+tracks              0x58              uzeboxSoundEngine.o
+gtimer              0x2               game.o
+player_gtimer       0x1               game.o
+scores              0x2               game.o
+fadeSpeed           0x1               uzeboxVideoEngine.o
+faders              0xa               game.o
+currDeltaTime       0x2               uzeboxSoundEngine.o
+fadeDir             0x1               uzeboxVideoEngine.o
+patchPointers       0x2               uzeboxSoundEngine.o
+g_oldwall           0x1               game.o
+supa_y              0x4               game.o
+block_dir           0x1               game.o
+baddie_ctrl         0x3               game.o
+bullet_x            0x4               game.o
+block_index         0x1               game.o
+baddie_x            0x6               game.o
+lastStatus          0x1               uzeboxSoundEngine.o
+absoluteTime        0x2               uzeboxSoundEngine.o
+snoblock_ctrl       0x1               game.o
+current_player      0x1               game.o
+joypadsConnectionStatus
+                    0x1               uzeboxCore.o
+block_ctrl          0x1               game.o
+player_trigger      0x1               game.o
+g_oxygen            0x1               game.o
+free_tile_index     0x1               uzeboxVideoEngine.o
+block_sprite        0x1               game.o
+baddie_frame        0x3               game.o
+uxtab               0x1               game.o
+fadeActive          0x1               uzeboxVideoEngine.o
+player_frame        0x1               game.o
+block_oldx          0x1               game.o
+pend_gtimer         0x1               game.o
+baddies_active      0x1               game.o
+state               0x1               game.o
+supa_done           0x1               game.o
+his_let             0x1               game.o
+bullet_life         0x4               game.o
+TILE_FADER          0x1               game.o
+block_count         0x1               game.o
+score               0x4               game.o
+masterVolume        0x1               uzeboxSoundEngine.o
+his_pos             0x1               game.o
+nextDeltaTime       0x2               uzeboxSoundEngine.o
+supa_move           0x4               game.o
+bullet_oldy         0x4               game.o
+songPos             0x2               uzeboxSoundEngine.o
+baddie_gtimer       0x3               game.o
+baddie_sprite       0x3               game.o
+level               0x2               game.o
+digits              0x5               game.o
+player_ctrl         0x1               game.o
+supa_x              0x4               game.o
+block_type          0x1               game.o
+supa_count          0x1               game.o
+snoblock_x          0x1               game.o
+snoblock_frame      0x1               game.o
+block_frame         0x1               game.o
+block_y             0x1               game.o
+continue_exit       0x1               game.o
+g_hitwall           0x1               game.o
+hiscore             0x2               game.o
+g_bonus             0x2               game.o
+sound_index         0x1               game.o
+pend_state          0x1               game.o
+baddie_trigger      0x6               game.o
+eggCount            0x1               game.o
+loopStart           0x2               uzeboxSoundEngine.o
+font_base           0x1               game.o
+lives               0x2               game.o
+uytab               0x1               game.o
+game_grid           0x100             game.o
+block_oldy          0x1               game.o
+player_x            0x2               game.o
+bullet_y            0x4               game.o
+g_wallgtimer        0x2               game.o
+his_rank            0x1               game.o
+currFadeFrame       0x1               uzeboxVideoEngine.o
+swan_exp            0x4               game.o
+baddie_dir          0x3               game.o
+fadeStep            0x1               uzeboxVideoEngine.o
+number_of_players   0x1               game.o
+baddie_y            0x6               game.o
+supa_trigger        0x4               game.o
+snoblock_trigger    0x1               game.o
+g_frame             0x2               game.o
+bullet_oldx         0x4               game.o
+snoblock_y          0x1               game.o
+free_slot           0x1               game.o
+music_vol           0x1               game.o
+bullet_dir          0x4               game.o
+player_kicked       0x1               game.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644.o
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644.o
+ .data          0x00000000        0x0 uzeboxVideoEngineCore.o
+ .text.SetSpritesTileBank
+                0x00000000        0x0 uzeboxVideoEngineCore.o
+ .text.ClearVram
+                0x00000000        0x0 uzeboxVideoEngineCore.o
+ .text.SetFont  0x00000000        0x0 uzeboxVideoEngineCore.o
+ .text.SetFontTilesIndex
+                0x00000000        0x0 uzeboxVideoEngineCore.o
+ .text.WaitUs   0x00000000        0x0 uzeboxVideoEngineCore.o
+ .text.SetUserPreVsyncCallback
+                0x00000000        0x0 uzeboxVideoEngineCore.o
+ .text.SetUserPostVsyncCallback
+                0x00000000        0x0 uzeboxVideoEngineCore.o
+ .text.IsRunningInEmulator
+                0x00000000        0x0 uzeboxVideoEngineCore.o
+ .text.internal_spi_byte
+                0x00000000        0x0 uzeboxVideoEngineCore.o
+ .text          0x00000000        0x0 uzeboxCore.o
+ .data          0x00000000        0x0 uzeboxCore.o
+ .bss           0x00000000        0x0 uzeboxCore.o
+ .text.SoftReset
+                0x00000000        0x0 uzeboxCore.o
+ .text.SetRenderingParameters
+                0x00000000        0x0 uzeboxCore.o
+ .text.ReadPowerSwitch
+                0x00000000        0x0 uzeboxCore.o
+ .text.FormatEeprom2
+                0x00000000        0x0 uzeboxCore.o
+ .text.DetectControllers
+                0x00000000        0x0 uzeboxCore.o
+ .text          0x00000000        0x0 uzeboxSoundEngine.o
+ .data          0x00000000        0x0 uzeboxSoundEngine.o
+ .text.RestartSong
+                0x00000000        0x0 uzeboxSoundEngine.o
+ .text.GetMasterVolume
+                0x00000000        0x0 uzeboxSoundEngine.o
+ .text.TriggerFx
+                0x00000000        0x0 uzeboxSoundEngine.o
+ .data          0x00000000        0x0 uzeboxSoundEngineCore.o
+ .text.EnableSoundEngine
+                0x00000000        0x0 uzeboxSoundEngineCore.o
+ .text          0x00000000        0x0 uzeboxVideoEngine.o
+ .bss           0x00000000        0x0 uzeboxVideoEngine.o
+ .text.MapSprite
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.MapSprite2
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.DrawMap2
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.doFade   0x00000000        0x0 uzeboxVideoEngine.o
+ .text.FadeIn   0x00000000        0x0 uzeboxVideoEngine.o
+ .text.FadeOut  0x00000000        0x0 uzeboxVideoEngine.o
+ .text.WaitVsync
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.FontFill
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.PrintChar
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.PrintRam
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.Print    0x00000000        0x0 uzeboxVideoEngine.o
+ .text.PrintHexByte
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.PrintHexLong
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.PrintHexInt
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.PrintBinaryByte
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.PrintInt
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.PrintByte
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.PrintLong
+                0x00000000        0x0 uzeboxVideoEngine.o
+ .text.Fill     0x00000000        0x0 uzeboxVideoEngine.o
+ .text.DrawMap  0x00000000        0x0 uzeboxVideoEngine.o
+ .text          0x00000000        0x0 game.o
+ .text.TileRead
+                0x00000000        0x0 game.o
+ .text.TSPRITE_TILE
+                0x00000000        0x0 game.o
+ .text.TSPRITE_GET_INDEX
+                0x00000000        0x0 game.o
+ .text.P_strlen
+                0x00000000        0x0 game.o
+ .text.Sprites_HideRest
+                0x00000000        0x0 game.o
+ .text.DKPrintNumber
+                0x00000000        0x0 game.o
+ .text.start_fader0
+                0x00000000        0x0 game.o
+ .text.start_fader
+                0x00000000        0x0 game.o
+ .text.ugo      0x00000000        0x0 game.o
+ .text.set_map  0x00000000        0x0 game.o
+ .text.trigger_stars
+                0x00000000        0x0 game.o
+ .text.block_remove
+                0x00000000        0x0 game.o
+ .text.player_wait_for_block
+                0x00000000        0x0 game.o
+ .text.draw_background_debug
+                0x00000000        0x0 game.o
+ .text.start_snoblock
+                0x00000000        0x0 game.o
+ .text.do_egg   0x00000000        0x0 game.o
+ .text.baddie_crush
+                0x00000000        0x0 game.o
+ .text.baddie_limbo
+                0x00000000        0x0 game.o
+ .text.decimal_sub3
+                0x00000000        0x0 game.o
+ .text.print_digit
+                0x00000000        0x0 game.o
+ .text.print_byte
+                0x00000000        0x0 game.o
+ .text.SetTileX
+                0x00000000        0x0 game.o
+ .text.ClearMapY
+                0x00000000        0x0 game.o
+ .text.hiscore_save_to_eeprom
+                0x00000000        0x0 game.o
+ .text.ds_setts
+                0x00000000        0x0 game.o
+ .text.sound2   0x00000000        0x0 game.o
+ .text.sound    0x00000000        0x0 game.o
+ .text.DKDrawActors
+                0x00000000        0x0 game.o
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644.o
+LOAD uzeboxVideoEngineCore.o
+LOAD uzeboxCore.o
+LOAD uzeboxSoundEngine.o
+LOAD uzeboxSoundEngineCore.o
+LOAD uzeboxVideoEngine.o
+LOAD game.o
+LOAD c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0xdef0
+ *(.vectors)
+ .vectors       0x00000000       0x70 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000070       0x4e uzeboxCore.o
+                0x00000070                eeprom_format_table
+                0x00000090                io_table
+ .progmem.data  0x000000be       0x1a uzeboxSoundEngine.o
+                0x000000be                patchCommands
+ .progmem.data  0x000000d8        0xc uzeboxVideoEngine.o
+                0x000000d8                fader
+ .progmem.data  0x000000e4     0x8203 game.o
+                0x0000687f                death
+                0x00003afc                pengo_walk_down_c_smap
+                0x00005878                sprite_table
+                0x000001c8                border_side_smap
+                0x00000192                block_die_00_smap
+                0x00003b2c                pengo_walk_up_b_smap
+                0x0000013a                a1_charset_smap
+                0x00006a27                splatb
+                0x000001ec                bullet_right_02_smap
+                0x000066d3                noise_snare
+                0x00006334                sfx_pengo_die
+                0x000001c5                border_c4_smap
+                0x00000246                magnet_down_05_smap
+                0x000001b6                block_supa_magenta_smap
+                0x000082ba                txt_time_bonus
+                0x00008267                txt_game_over
+                0x0000659b                sfx_pengo_stun
+                0x00000216                floor_tile_d_x_smap
+                0x00000258                oxygen_smap
+                0x00000204                floor_tile_b_smap
+                0x000081b2                txt_continue_exit1
+                0x00003aba                beam_06_smap
+                0x0000017c                a1_fader_smap
+                0x0000731c                music_telstar
+                0x00003aea                ch90_exp_f_smap
+                0x000082db                txt_player
+                0x000001d7                bullet_down_03_smap
+                0x000058bc                levels
+                0x000001cb                border_top_smap
+                0x0000828d                txt_1up
+                0x00003b08                pengo_walk_left_b_smap
+                0x00003a6c                baddie_100_smap
+                0x00003af6                pengo_walk_down_b_smap
+                0x00000261                star_01_smap
+                0x000001e9                bullet_right_01_smap
+                0x00006ca0                music_pengo_music_start
+                0x00008226                txt_playerone
+                0x000001c2                border_c3_smap
+                0x0000026d                star_05_smap
+                0x00008246                txt_2player
+                0x00008291                txt_2up
+                0x00008216                txt_congratulations
+                0x0000689c                up_down
+                0x00006100                sfx_pengo_baddie_die
+                0x0000024c                magnet_down_06_smap
+                0x00003b0e                pengo_walk_left_c_smap
+                0x000060f8                patch_lead
+                0x000081c4                txt_pjones
+                0x00006ab3                patches
+                0x000001b0                block_supa_green_smap
+                0x0000025e                star_00_smap
+                0x00003ac6                beam_18_smap
+                0x000001f2                bullet_right_04_smap
+                0x0000667b                echo
+                0x00006862                alarm
+                0x000001bc                border_c1_smap
+                0x000001ef                bullet_right_03_smap
+                0x00000189                bar_red_smap
+                0x00000273                star_07_smap
+                0x000081fe                txt_youareinthetopten
+                0x0000023a                magnet_down_03_smap
+                0x000081ea                txt_blank3
+                0x00000270                star_06_smap
+                0x00003b20                pengo_walk_right_c_smap
+                0x00000264                star_02_smap
+                0x000082e3                frames_baddie_walk
+                0x000066c2                noise_drop_floor_b
+                0x00006848                beam2
+                0x00003ab4                beam_02_smap
+                0x00003aae                baddie_u_b_smap
+                0x00000240                magnet_down_04_smap
+                0x000067ad                dead
+                0x00003af0                pengo_walk_down_a_smap
+                0x000039f6                tsprite_table
+                0x000081bd                txt_continue_exit2
+                0x00006809                buzz
+                0x00008231                txt_playertwo
+                0x00000228                magnet_down_00_smap
+                0x00006511                sfx_pengo_hitwall
+                0x00003ad8                ch90_exp_c_smap
+                0x000082df                frames_pengo_walk
+                0x000066de                noise_clap
+                0x00003a90                baddie_r_a_smap
+                0x00003ad2                ch90_exp_b_smap
+                0x0000018c                blank_smap
+                0x000000e4                a0_logo_smap
+                0x000001d4                bullet_down_02_smap
+                0x0000664f                sfx_hiscore_click
+                0x0000021c                floor_tile_d_y_smap
+                0x000082a1                txt_sound
+                0x000001e3                bullet_down_07_smap
+                0x0000682e                shoot
+                0x0000022e                magnet_down_01_smap
+                0x000060dc                patch_bass
+                0x000069da                bonus_down
+                0x000001ce                bullet_down_00_smap
+                0x00008295                txt_sector
+                0x000001dd                bullet_down_05_smap
+                0x00006670                sfx_bonus_clickb
+                0x0000026a                star_04_smap
+                0x000081ee                txt_level
+                0x00003b26                pengo_walk_up_a_smap
+                0x000082a8                txt_level_completed
+                0x00006d55                music_pengo_ch0_a
+                0x000063dc                sfx_pengo_egg_hatch
+                0x00000186                bar_green_smap
+                0x0000823c                txt_1player
+                0x00003ae4                ch90_exp_e_smap
+                0x00008271                his_lets
+                0x00003acc                ch90_exp_a_smap
+                0x000001a4                block_die_03_smap
+                0x00003b02                pengo_walk_left_a_smap
+                0x000061c6                sfx_pengo_crush_block
+                0x0000681a                buzzoff
+                0x000068bf                splat
+                0x00003ac0                beam_10_smap
+                0x000001f8                bullet_right_06_smap
+                0x000066b1                noise_cymbal
+                0x000001bf                border_c2_smap
+                0x00003aa2                baddie_stun_b_smap
+                0x0000019e                block_die_02_smap
+                0x00000210                floor_tile_d_smap
+                0x000001da                bullet_down_04_smap
+                0x00008298                txt_lives
+                0x00008197                music_stop
+                0x00006724                bonus
+                0x000001f5                bullet_right_05_smap
+                0x000001fb                bullet_right_07_smap
+                0x00003a96                baddie_r_b_smap
+                0x00008250                txt_please_enter_your_name
+                0x00006665                sfx_bonus_click
+                0x000066a3                noise_hihat
+                0x000081d1                txt_get_ready
+                0x00000252                magnet_down_07_smap
+                0x0000668f                noise_drop_floor
+                0x00003b1a                pengo_walk_right_b_smap
+                0x00000276                ts_data
+                0x000081ab                txt_paused
+                0x000082c5                txt_music_on
+                0x0000020a                floor_tile_c_smap
+                0x0000829e                txt_hi
+                0x000082d0                txt_music_off
+                0x00000198                block_die_01_smap
+                0x00003b32                pengo_walk_up_c_smap
+                0x00003a9c                baddie_stun_a_smap
+                0x000001fe                floor_tile_a_smap
+                0x000001aa                block_g_smap
+                0x00003b14                pengo_walk_right_a_smap
+                0x00003a78                baddie_d_a_smap
+                0x00003b38                sp_data
+                0x00003a8a                baddie_l_b_smap
+                0x000001d1                bullet_down_01_smap
+                0x000060e7                patch_lead2
+                0x00003a84                baddie_l_a_smap
+                0x00006577                sfx_pengo_kick
+                0x00000222                floor_tile_f_smap
+                0x00006951                bonus2a
+                0x00000267                star_03_smap
+                0x00000234                magnet_down_02_smap
+                0x00003a7e                baddie_d_b_smap
+                0x000001e6                bullet_right_00_smap
+                0x00003aa8                baddie_u_a_smap
+                0x00003a72                baddie_400_smap
+                0x000001e0                bullet_down_06_smap
+                0x0000665a                sfx_hiscore_enter
+                0x00006b8b                music_pengo_music_die
+                0x000081da                txt_blank10
+                0x000066ef                line_clear
+                0x00003ade                ch90_exp_d_smap
+                0x000082e8                . = ALIGN (0x2)
+ *fill*         0x000082e7        0x1 00
+                0x000082e8                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000082e8        0x0 linker stubs
+ *(.trampolines*)
+                0x000082e8                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000082e8                __ctors_start = .
+ *(.ctors)
+                0x000082e8                __ctors_end = .
+                0x000082e8                __dtors_start = .
+ *(.dtors)
+                0x000082e8                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000082e8        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644.o
+                0x000082e8                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000082e8        0xc c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644.o
+ *(.init2)
+ *(.init3)
+ .init3         0x000082f4       0x12 uzeboxCore.o
+                0x000082f4                wdt_init
+ *(.init3)
+ *(.init4)
+ .init4         0x00008306       0x16 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00008306                __do_copy_data
+ .init4         0x0000831c       0x10 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x0000831c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ .init8         0x0000832c       0xa4 uzeboxCore.o
+                0x0000832c                Initialize
+ *(.init8)
+ *(.init9)
+ .init9         0x000083d0        0x8 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644.o
+ *(.init9)
+ *(.text)
+ .text          0x000083d8        0x4 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644.o
+                0x000083d8                __vector_22
+                0x000083d8                __vector_1
+                0x000083d8                __vector_24
+                0x000083d8                __vector_12
+                0x000083d8                __bad_interrupt
+                0x000083d8                __vector_6
+                0x000083d8                __vector_3
+                0x000083d8                __vector_23
+                0x000083d8                __vector_25
+                0x000083d8                __vector_11
+                0x000083d8                __vector_17
+                0x000083d8                __vector_19
+                0x000083d8                __vector_7
+                0x000083d8                __vector_27
+                0x000083d8                __vector_5
+                0x000083d8                __vector_4
+                0x000083d8                __vector_9
+                0x000083d8                __vector_2
+                0x000083d8                __vector_21
+                0x000083d8                __vector_15
+                0x000083d8                __vector_8
+                0x000083d8                __vector_26
+                0x000083d8                __vector_10
+                0x000083d8                __vector_16
+                0x000083d8                __vector_18
+                0x000083d8                __vector_20
+ .text          0x000083dc      0x556 uzeboxVideoEngineCore.o
+                0x00008674                BlitSprite
+                0x0000874c                __vector_13
+                0x00008552                CopyTileToRam
+                0x000087cc                __vector_14
+ .text          0x00008932      0x298 uzeboxSoundEngineCore.o
+                0x00008932                process_music
+                0x00008bb4                SetMixerVolume
+                0x00008ae6                update_sound
+                0x00008abe                update_sound_buffer_fast
+                0x00008b6a                SetMixerNoiseParams
+                0x00008b7a                SetMixerWave
+                0x00008b3c                SetMixerNote
+                0x00008bca                . = ALIGN (0x2)
+ *(.text.*)
+ .text.SetSpritesTileTable
+                0x00008bca        0xa uzeboxVideoEngineCore.o
+                0x00008bca                SetSpritesTileTable
+ .text.SetTile  0x00008bd4       0x1c uzeboxVideoEngineCore.o
+                0x00008bd4                SetTile
+ .text.SetTileTable
+                0x00008bf0        0xa uzeboxVideoEngineCore.o
+                0x00008bf0                SetTileTable
+ .text.GetVsyncFlag
+                0x00008bfa        0x6 uzeboxVideoEngineCore.o
+                0x00008bfa                GetVsyncFlag
+ .text.ClearVsyncFlag
+                0x00008c00        0x8 uzeboxVideoEngineCore.o
+                0x00008c00                ClearVsyncFlag
+ .text.ReadJoypad
+                0x00008c08       0x18 uzeboxVideoEngineCore.o
+                0x00008c08                ReadJoypad
+ .text.WriteEeprom
+                0x00008c20       0x14 uzeboxVideoEngineCore.o
+                0x00008c20                WriteEeprom
+ .text.ReadEeprom
+                0x00008c34       0x12 uzeboxVideoEngineCore.o
+                0x00008c34                ReadEeprom
+ .text.ReadButtons
+                0x00008c46       0x76 uzeboxCore.o
+                0x00008c46                ReadButtons
+ .text.ReadControllers
+                0x00008cbc       0x22 uzeboxCore.o
+                0x00008cbc                ReadControllers
+ .text.isEepromFormatted
+                0x00008cde       0x2c uzeboxCore.o
+                0x00008cde                isEepromFormatted
+ .text.EepromReadBlock
+                0x00008d0a       0xbc uzeboxCore.o
+                0x00008d0a                EepromReadBlock
+ .text.EepromWriteBlock
+                0x00008dc6       0xd8 uzeboxCore.o
+                0x00008dc6                EepromWriteBlock
+ .text.FormatEeprom
+                0x00008e9e       0x46 uzeboxCore.o
+                0x00008e9e                FormatEeprom
+ .text.PatchCommand00
+                0x00008ee4        0x6 uzeboxSoundEngine.o
+                0x00008ee4                PatchCommand00
+ .text.PatchCommand01
+                0x00008eea       0x12 uzeboxSoundEngine.o
+                0x00008eea                PatchCommand01
+ .text.PatchCommand05
+                0x00008efc        0xa uzeboxSoundEngine.o
+                0x00008efc                PatchCommand05
+ .text.PatchCommand06
+                0x00008f06        0xa uzeboxSoundEngine.o
+                0x00008f06                PatchCommand06
+ .text.PatchCommand07
+                0x00008f10        0x6 uzeboxSoundEngine.o
+                0x00008f10                PatchCommand07
+ .text.PatchCommand09
+                0x00008f16        0x6 uzeboxSoundEngine.o
+                0x00008f16                PatchCommand09
+ .text.PatchCommand10
+                0x00008f1c        0x6 uzeboxSoundEngine.o
+                0x00008f1c                PatchCommand10
+ .text.PatchCommand11
+                0x00008f22       0x88 uzeboxSoundEngine.o
+                0x00008f22                PatchCommand11
+ .text.PatchCommand12
+                0x00008faa        0x6 uzeboxSoundEngine.o
+                0x00008faa                PatchCommand12
+ .text.InitMusicPlayer
+                0x00008fb0       0x36 uzeboxSoundEngine.o
+                0x00008fb0                InitMusicPlayer
+ .text.StartSong
+                0x00008fe6       0x56 uzeboxSoundEngine.o
+                0x00008fe6                StartSong
+ .text.StopSong
+                0x0000903c       0x18 uzeboxSoundEngine.o
+                0x0000903c                StopSong
+ .text.ResumeSong
+                0x00009054        0x8 uzeboxSoundEngine.o
+                0x00009054                ResumeSong
+ .text.ReadVarLen
+                0x0000905c       0x48 uzeboxSoundEngine.o
+                0x0000905c                ReadVarLen
+ .text.SetMasterVolume
+                0x000090a4        0x6 uzeboxSoundEngine.o
+                0x000090a4                SetMasterVolume
+ .text.PatchCommand08
+                0x000090aa       0x1e uzeboxSoundEngine.o
+                0x000090aa                PatchCommand08
+ .text.PatchCommand04
+                0x000090c8       0x10 uzeboxSoundEngine.o
+                0x000090c8                PatchCommand04
+ .text.PatchCommand03
+                0x000090d8       0x12 uzeboxSoundEngine.o
+                0x000090d8                PatchCommand03
+ .text.TriggerCommon
+                0x000090ea       0xb4 uzeboxSoundEngine.o
+                0x000090ea                TriggerCommon
+ .text.TriggerNote
+                0x0000919e       0x76 uzeboxSoundEngine.o
+                0x0000919e                TriggerNote
+ .text.ProcessMusic
+                0x00009214      0x450 uzeboxSoundEngine.o
+                0x00009214                ProcessMusic
+ .text.TriggerFxChannel
+                0x00009664       0x2a uzeboxSoundEngine.o
+                0x00009664                TriggerFxChannel
+ .text.PatchCommand02
+                0x0000968e        0xa uzeboxSoundEngine.o
+                0x0000968e                PatchCommand02
+ *fill*         0x00009698       0x68 00
+ .text.DisableSoundEngine
+                0x00009700      0x800 uzeboxSoundEngineCore.o
+                0x00009708                steptable
+                0x00009700                DisableSoundEngine
+                0x00009900                waves
+ .text.RestoreBackground
+                0x00009f00       0x2e uzeboxVideoEngine.o
+                0x00009f00                RestoreBackground
+ .text.SetSpriteVisibility
+                0x00009f2e        0x6 uzeboxVideoEngine.o
+                0x00009f2e                SetSpriteVisibility
+ .text.MoveSprite
+                0x00009f34       0x7a uzeboxVideoEngine.o
+                0x00009f34                MoveSprite
+ .text.DisplayLogo
+                0x00009fae        0x2 uzeboxVideoEngine.o
+                0x00009fae                DisplayLogo
+ .text.InitializeVideoMode
+                0x00009fb0       0x14 uzeboxVideoEngine.o
+                0x00009fb0                InitializeVideoMode
+ .text.ProcessFading
+                0x00009fc4       0x48 uzeboxVideoEngine.o
+                0x00009fc4                ProcessFading
+ .text.ProcessSprites
+                0x0000a00c      0x1ac uzeboxVideoEngine.o
+                0x0000a00c                ProcessSprites
+ .text.VideoModeVsync
+                0x0000a1b8        0xa uzeboxVideoEngine.o
+                0x0000a1b8                VideoModeVsync
+ .text.DKMapSprite
+                0x0000a1c2       0x94 game.o
+                0x0000a1c2                DKMapSprite
+ .text.do_fader
+                0x0000a256      0x11a game.o
+                0x0000a256                do_fader
+ .text.start_fader_single
+                0x0000a370       0x30 game.o
+                0x0000a370                start_fader_single
+ .text.add_score
+                0x0000a3a0       0x4e game.o
+                0x0000a3a0                add_score
+ .text.decimal_sub2
+                0x0000a3ee       0xa0 game.o
+                0x0000a3ee                decimal_sub2
+ .text.uze_hiscore_getrank
+                0x0000a48e       0x26 game.o
+                0x0000a48e                uze_hiscore_getrank
+ .text.uze_hiscore_init
+                0x0000a4b4       0x28 game.o
+                0x0000a4b4                uze_hiscore_init
+ .text.hit_block_vs_baddie
+                0x0000a4dc        0x2 game.o
+                0x0000a4dc                hit_block_vs_baddie
+ .text.read_map
+                0x0000a4de       0x4e game.o
+                0x0000a4de                read_map
+ .text.read_map_index
+                0x0000a52c       0x4e game.o
+                0x0000a52c                read_map_index
+ .text.player_walk
+                0x0000a57a       0x6e game.o
+                0x0000a57a                player_walk
+ .text.check_supas
+                0x0000a5e8      0x1b8 game.o
+                0x0000a5e8                check_supas
+ .text.block_move
+                0x0000a7a0      0x122 game.o
+                0x0000a7a0                block_move
+ .text.snoblock_crush
+                0x0000a8c2       0x68 game.o
+                0x0000a8c2                snoblock_crush
+ .text.start_block
+                0x0000a92a       0x34 game.o
+                0x0000a92a                start_block
+ .text.next_player
+                0x0000a95e       0x40 game.o
+                0x0000a95e                next_player
+ .text.player_die
+                0x0000a99e       0x8a game.o
+                0x0000a99e                player_die
+ .text.get_map  0x0000aa28       0x70 game.o
+                0x0000aa28                get_map
+ .text.get_mapf
+                0x0000aa98       0x1c game.o
+                0x0000aa98                get_mapf
+ .text.baddie_stun
+                0x0000aab4       0x38 game.o
+                0x0000aab4                baddie_stun
+ .text.force_stun
+                0x0000aaec       0x40 game.o
+                0x0000aaec                force_stun
+ .text.baddie_pop
+                0x0000ab2c       0x36 game.o
+                0x0000ab2c                baddie_pop
+ .text.setup_collision
+                0x0000ab62      0x174 game.o
+                0x0000ab62                setup_collision
+ .text.uprintc  0x0000acd6       0x64 game.o
+                0x0000acd6                uprintc
+ .text.PanelClear
+                0x0000ad3a       0x30 game.o
+                0x0000ad3a                PanelClear
+ .text.print_score
+                0x0000ad6a       0x5e game.o
+                0x0000ad6a                print_score
+ .text.print_decimal
+                0x0000adc8       0x3a game.o
+                0x0000adc8                print_decimal
+ .text.printx_ram
+                0x0000ae02       0x18 game.o
+                0x0000ae02                printx_ram
+ .text.uprintx  0x0000ae1a       0x1c game.o
+                0x0000ae1a                uprintx
+ .text.ucprintx_dot
+                0x0000ae36       0x74 game.o
+                0x0000ae36                ucprintx_dot
+ .text.ucprintx_blank
+                0x0000aeaa       0x3c game.o
+                0x0000aeaa                ucprintx_blank
+ .text.ucprintx
+                0x0000aee6       0x3a game.o
+                0x0000aee6                ucprintx
+ .text.tile_frame
+                0x0000af20       0x84 game.o
+                0x0000af20                tile_frame
+ .text.draw_fader
+                0x0000afa4       0x8e game.o
+                0x0000afa4                draw_fader
+ .text.TSPRITE_DIRECT
+                0x0000b032       0xd0 game.o
+                0x0000b032                TSPRITE_DIRECT
+ .text.TSPRITE_BLANK
+                0x0000b102       0xc2 game.o
+                0x0000b102                TSPRITE_BLANK
+ .text.TSPRITE  0x0000b1c4       0xde game.o
+                0x0000b1c4                TSPRITE
+ .text.draw_oxygen_bar
+                0x0000b2a2       0x46 game.o
+                0x0000b2a2                draw_oxygen_bar
+ .text.update_panel
+                0x0000b2e8      0x186 game.o
+                0x0000b2e8                update_panel
+ .text.draw_snoblock
+                0x0000b46e       0x48 game.o
+                0x0000b46e                draw_snoblock
+ .text.TSPRITE2
+                0x0000b4b6       0x32 game.o
+                0x0000b4b6                TSPRITE2
+ .text.draw_block
+                0x0000b4e8       0x62 game.o
+                0x0000b4e8                draw_block
+ .text.block_crush
+                0x0000b54a       0x76 game.o
+                0x0000b54a                block_crush
+ .text.do_block
+                0x0000b5c0       0x28 game.o
+                0x0000b5c0                do_block
+ .text.DKFill   0x0000b5e8       0x50 game.o
+                0x0000b5e8                DKFill
+ .text.ClearSubMap
+                0x0000b638       0x34 game.o
+                0x0000b638                ClearSubMap
+ .text.ClearMap
+                0x0000b66c       0x30 game.o
+                0x0000b66c                ClearMap
+ .text.draw_enter
+                0x0000b69c       0x44 game.o
+                0x0000b69c                draw_enter
+ .text.uze_hiscore_insert
+                0x0000b6e0       0xa4 game.o
+                0x0000b6e0                uze_hiscore_insert
+ .text.hiscore_load_from_eeprom
+                0x0000b784       0x42 game.o
+                0x0000b784                hiscore_load_from_eeprom
+ .text.draw_hiscore
+                0x0000b7c6       0xae game.o
+                0x0000b7c6                draw_hiscore
+ .text.SelectTileset
+                0x0000b874       0x20 game.o
+                0x0000b874                SelectTileset
+ .text.draw_title
+                0x0000b894       0x2e game.o
+                0x0000b894                draw_title
+ .text.boot     0x0000b8c2       0x6e game.o
+                0x0000b8c2                boot
+ .text.hiscore_check
+                0x0000b930       0x60 game.o
+                0x0000b930                hiscore_check
+ .text.play_music
+                0x0000b990       0x38 game.o
+                0x0000b990                play_music
+ .text.player_start_die
+                0x0000b9c8       0x1a game.o
+                0x0000b9c8                player_start_die
+ .text.fire_bullet
+                0x0000b9e2       0x6a game.o
+                0x0000b9e2                fire_bullet
+ .text.hit_alien
+                0x0000ba4c       0xa8 game.o
+                0x0000ba4c                hit_alien
+ .text.move_bullets
+                0x0000baf4      0x30a game.o
+                0x0000baf4                move_bullets
+ .text.draw_main
+                0x0000bdfe       0xf0 game.o
+                0x0000bdfe                draw_main
+ .text.check_stun
+                0x0000beee       0xa4 game.o
+                0x0000beee                check_stun
+ .text.baddie_move
+                0x0000bf92       0x8a game.o
+                0x0000bf92                baddie_move
+ .text.draw_supa
+                0x0000c01c      0x244 game.o
+                0x0000c01c                draw_supa
+ .text.uze_hiscore_enter
+                0x0000c260      0x1ac game.o
+                0x0000c260                uze_hiscore_enter
+ .text.SPRITE   0x0000c40c       0x44 game.o
+                0x0000c40c                SPRITE
+ .text.draw_player
+                0x0000c450       0x50 game.o
+                0x0000c450                draw_player
+ .text.ran      0x0000c4a0       0x32 game.o
+                0x0000c4a0                ran
+ .text.draw_menu_stars
+                0x0000c4d2       0xf8 game.o
+                0x0000c4d2                draw_menu_stars
+ .text.baddie_get_spawn_time
+                0x0000c5ca       0x70 game.o
+                0x0000c5ca                baddie_get_spawn_time
+ .text.start_baddie
+                0x0000c63a       0x3c game.o
+                0x0000c63a                start_baddie
+ .text.restart_level
+                0x0000c676      0x122 game.o
+                0x0000c676                restart_level
+ .text.new_level
+                0x0000c798       0x5a game.o
+                0x0000c798                new_level
+ .text.new_game
+                0x0000c7f2       0x34 game.o
+                0x0000c7f2                new_game
+ .text.do_baddie2
+                0x0000c826      0x128 game.o
+                0x0000c826                do_baddie2
+ .text.draw_background
+                0x0000c94e      0x332 game.o
+                0x0000c94e                draw_background
+ .text.do_player2
+                0x0000cc80      0x418 game.o
+                0x0000cc80                do_player2
+ .text.draw_baddie
+                0x0000d098      0x11e game.o
+                0x0000d098                draw_baddie
+ .text.draw_idle
+                0x0000d1b6      0x2da game.o
+                0x0000d1b6                draw_idle
+ .text.respawn  0x0000d490       0x7c game.o
+                0x0000d490                respawn
+ .text.do_baddie
+                0x0000d50c       0x8c game.o
+                0x0000d50c                do_baddie
+ .text.hit_player_vs_baddie
+                0x0000d598       0xf0 game.o
+                0x0000d598                hit_player_vs_baddie
+ .text.do_player
+                0x0000d688       0x32 game.o
+                0x0000d688                do_player
+ .text.do_idle  0x0000d6ba      0x52e game.o
+                0x0000d6ba                do_idle
+ .text.main     0x0000dbe8       0xce game.o
+                0x0000dbe8                main
+ .text.libgcc   0x0000dcb6       0x28 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x0000dcb6                __udivmodhi4
+ .text.libgcc   0x0000dcde       0x26 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                0x0000dcde                __divmodhi4
+                0x0000dcde                _div
+ .text.libgcc   0x0000dd04       0x44 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000dd04                __udivmodsi4
+ .text.avr-libc
+                0x0000dd48       0xc2 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+                0x0000dde4                rand_r
+                0x0000ddea                rand
+                0x0000ddf4                srand
+ .text.libgcc   0x0000de0a       0x3e c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x0000de0a                __mulsi3
+ .text.libgcc   0x0000de48       0x36 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                0x0000de48                __divmodsi4
+ .text.libgcc   0x0000de7e       0x38 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x0000de7e                __prologue_saves__
+ .text.libgcc   0x0000deb6       0x36 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x0000deb6                __epilogue_restores__
+                0x0000deec                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000deec        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x0000deec                exit
+                0x0000deec                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000deec        0x4 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000def0                _etext = .
+
+.data           0x00800100       0x16 load address 0x0000def0
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x1 uzeboxVideoEngine.o
+                0x00800100                spritesOn
+ .data          0x00800101       0x10 game.o
+                0x00800101                spd
+ .data          0x00800111        0x4 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800116                . = ALIGN (0x2)
+ *fill*         0x00800115        0x1 00
+                0x00800116                _edata = .
+                0x00800116                PROVIDE (__data_end, .)
+
+.bss            0x00800120      0xf06
+                0x00800120                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800120      0xac0 uzeboxVideoEngineCore.o
+                0x0080042c                sprites
+                0x00800bb6                sync_phase
+                0x00800bc7                joypad2_status_hi
+                0x00800bbe                render_lines_count
+                0x00800bc3                joypad1_status_hi
+                0x00800bc0                render_lines_count_tmp
+                0x00800bb7                sync_pulse
+                0x0080047c                ram_tiles
+                0x00800bbd                first_render_line
+                0x00800bbf                first_render_line_tmp
+                0x00800bc1                joypad1_status_lo
+                0x00800120                vram
+                0x00800b3c                ram_tiles_restore
+                0x00800bc5                joypad2_status_lo
+ .bss           0x00800be0        0x1 uzeboxSoundEngine.o
+                0x00800be0                playSong
+ .bss           0x00800be1      0x229 uzeboxSoundEngineCore.o
+                0x00800e07                tr4_barrel_hi
+                0x00800e06                tr4_barrel_lo
+                0x00800df2                mixer
+                0x00800e05                tr4_params
+                0x00800def                mix_bank
+                0x00800df1                sound_enabled
+                0x00800ded                mix_pos
+                0x00800be1                mix_buf
+ .bss           0x00800e0a        0x5 game.o
+                0x00800e0c                btnHeld
+                0x00800e0a                btnPressed
+                0x00800e0e                bullet_slot
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800e0f        0x1 uzeboxCore.o
+                0x00800e0f                joypadsConnectionStatus
+ COMMON         0x00800e10       0x68 uzeboxSoundEngine.o
+                0x00800e10                songStart
+                0x00800e12                tracks
+                0x00800e6a                currDeltaTime
+                0x00800e6c                patchPointers
+                0x00800e6e                lastStatus
+                0x00800e6f                absoluteTime
+                0x00800e71                masterVolume
+                0x00800e72                nextDeltaTime
+                0x00800e74                songPos
+                0x00800e76                loopStart
+ COMMON         0x00800e78        0x6 uzeboxVideoEngine.o
+                0x00800e78                fadeSpeed
+                0x00800e79                fadeDir
+                0x00800e7a                free_tile_index
+                0x00800e7b                fadeActive
+                0x00800e7c                currFadeFrame
+                0x00800e7d                fadeStep
+ COMMON         0x00800e7e      0x1a8 game.o
+                0x00800e7e                dirty
+                0x00800e7f                block_oldsprite
+                0x00800e80                paused
+                0x00800e81                block_x
+                0x00800e82                block_trigger
+                0x00800e83                player_dir
+                0x00800e84                baddie_callb
+                0x00800e87                player_y
+                0x00800e89                gtimer
+                0x00800e8b                player_gtimer
+                0x00800e8c                scores
+                0x00800e8e                faders
+                0x00800e98                g_oldwall
+                0x00800e99                supa_y
+                0x00800e9d                block_dir
+                0x00800e9e                baddie_ctrl
+                0x00800ea1                bullet_x
+                0x00800ea5                block_index
+                0x00800ea6                baddie_x
+                0x00800eac                snoblock_ctrl
+                0x00800ead                current_player
+                0x00800eae                block_ctrl
+                0x00800eaf                player_trigger
+                0x00800eb0                g_oxygen
+                0x00800eb1                block_sprite
+                0x00800eb2                baddie_frame
+                0x00800eb5                uxtab
+                0x00800eb6                player_frame
+                0x00800eb7                block_oldx
+                0x00800eb8                pend_gtimer
+                0x00800eb9                baddies_active
+                0x00800eba                state
+                0x00800ebb                supa_done
+                0x00800ebc                his_let
+                0x00800ebd                bullet_life
+                0x00800ec1                TILE_FADER
+                0x00800ec2                block_count
+                0x00800ec3                score
+                0x00800ec7                his_pos
+                0x00800ec8                supa_move
+                0x00800ecc                bullet_oldy
+                0x00800ed0                baddie_gtimer
+                0x00800ed3                baddie_sprite
+                0x00800ed6                level
+                0x00800ed8                digits
+                0x00800edd                player_ctrl
+                0x00800ede                supa_x
+                0x00800ee2                block_type
+                0x00800ee3                supa_count
+                0x00800ee4                snoblock_x
+                0x00800ee5                snoblock_frame
+                0x00800ee6                block_frame
+                0x00800ee7                block_y
+                0x00800ee8                continue_exit
+                0x00800ee9                g_hitwall
+                0x00800eea                hiscore
+                0x00800eec                g_bonus
+                0x00800eee                sound_index
+                0x00800eef                pend_state
+                0x00800ef0                baddie_trigger
+                0x00800ef6                eggCount
+                0x00800ef7                font_base
+                0x00800ef8                lives
+                0x00800efa                uytab
+                0x00800efb                game_grid
+                0x00800ffb                block_oldy
+                0x00800ffc                player_x
+                0x00800ffe                bullet_y
+                0x00801002                g_wallgtimer
+                0x00801004                his_rank
+                0x00801005                swan_exp
+                0x00801009                baddie_dir
+                0x0080100c                number_of_players
+                0x0080100d                baddie_y
+                0x00801013                supa_trigger
+                0x00801017                snoblock_trigger
+                0x00801018                g_frame
+                0x0080101a                bullet_oldx
+                0x0080101e                snoblock_y
+                0x0080101f                free_slot
+                0x00801020                music_vol
+                0x00801021                bullet_dir
+                0x00801025                player_kicked
+                0x00801026                PROVIDE (__bss_end, .)
+                0x0000def0                __data_load_start = LOADADDR (.data)
+                0x0000df06                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00801026        0x0
+                0x00801026                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00801026                PROVIDE (__noinit_end, .)
+                0x00801026                _end = .
+                0x00801026                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x6d8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xa8 uzeboxVideoEngineCore.o
+ .debug_aranges
+                0x000000a8       0x80 uzeboxCore.o
+ .debug_aranges
+                0x00000128       0xe8 uzeboxSoundEngine.o
+ .debug_aranges
+                0x00000210       0x30 uzeboxSoundEngineCore.o
+ .debug_aranges
+                0x00000240       0xf8 uzeboxVideoEngine.o
+ .debug_aranges
+                0x00000338      0x3a0 game.o
+
+.debug_pubnames
+                0x00000000     0x1f35
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x148 uzeboxCore.o
+ .debug_pubnames
+                0x00000148      0x29d uzeboxSoundEngine.o
+ .debug_pubnames
+                0x000003e5      0x233 uzeboxVideoEngine.o
+ .debug_pubnames
+                0x00000618     0x191d game.o
+
+.debug_info     0x00000000     0x77b8
+ *(.debug_info)
+ .debug_info    0x00000000       0x58 uzeboxVideoEngineCore.o
+ .debug_info    0x00000058      0x7ac uzeboxCore.o
+ .debug_info    0x00000804     0x1002 uzeboxSoundEngine.o
+ .debug_info    0x00001806       0x4e uzeboxSoundEngineCore.o
+ .debug_info    0x00001854      0xe32 uzeboxVideoEngine.o
+ .debug_info    0x00002686     0x5132 game.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xc3e
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 uzeboxVideoEngineCore.o
+ .debug_abbrev  0x00000012      0x276 uzeboxCore.o
+ .debug_abbrev  0x00000288      0x252 uzeboxSoundEngine.o
+ .debug_abbrev  0x000004da       0x12 uzeboxSoundEngineCore.o
+ .debug_abbrev  0x000004ec      0x2b9 uzeboxVideoEngine.o
+ .debug_abbrev  0x000007a5      0x499 game.o
+
+.debug_line     0x00000000     0x58ad
+ *(.debug_line)
+ .debug_line    0x00000000      0x401 uzeboxVideoEngineCore.o
+ .debug_line    0x00000401      0x4f3 uzeboxCore.o
+ .debug_line    0x000008f4      0x8e5 uzeboxSoundEngine.o
+ .debug_line    0x000011d9      0x1b6 uzeboxSoundEngineCore.o
+ .debug_line    0x0000138f      0x989 uzeboxVideoEngine.o
+ .debug_line    0x00001d18     0x3b95 game.o
+
+.debug_frame    0x00000000      0xb80
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xe0 uzeboxCore.o
+ .debug_frame   0x000000e0      0x1b0 uzeboxSoundEngine.o
+ .debug_frame   0x00000290      0x1d0 uzeboxVideoEngine.o
+ .debug_frame   0x00000460      0x720 game.o
+
+.debug_str      0x00000000     0x27cd
+ *(.debug_str)
+ .debug_str     0x00000000      0x3e4 uzeboxCore.o
+                                0x443 (size before relaxing)
+ .debug_str     0x000003e4      0x3d2 uzeboxSoundEngine.o
+                                0x585 (size before relaxing)
+ .debug_str     0x000007b6      0x25c uzeboxVideoEngine.o
+                                0x343 (size before relaxing)
+ .debug_str     0x00000a12     0x1dbb game.o
+                               0x1ffb (size before relaxing)
+
+.debug_loc      0x00000000     0x4064
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x37d uzeboxCore.o
+ .debug_loc     0x0000037d      0x97a uzeboxSoundEngine.o
+ .debug_loc     0x00000cf7      0xee4 uzeboxVideoEngine.o
+ .debug_loc     0x00001bdb     0x2489 game.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(SpaceAge.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0x828
+ .debug_ranges  0x00000000       0xa0 uzeboxVideoEngineCore.o
+ .debug_ranges  0x000000a0       0x78 uzeboxCore.o
+ .debug_ranges  0x00000118       0xf8 uzeboxSoundEngine.o
+ .debug_ranges  0x00000210       0x28 uzeboxSoundEngineCore.o
+ .debug_ranges  0x00000238      0x138 uzeboxVideoEngine.o
+ .debug_ranges  0x00000370      0x4b8 game.o
