@@ -124,30 +124,32 @@
 .section .bss
 	.align 1
 
-	sync_phase:  .byte 1	;0=vsync, 1=hsync
-	sync_pulse:	 .byte 1	;scanline counter
-	vsync_flag:  .byte 1	;set  @ 60Hz np
+	sync_phase:  .space 1	;0=vsync, 1=hsync
+	sync_pulse:	 .space 1	;scanline counter
+	vsync_flag:  .space 1	;set  @ 60Hz np
 
-	pre_vsync_user_callback:  .word 1 ;pointer to function
-	post_vsync_user_callback: .word 1 ;pointer to function
+	#pre_vsync_user_callback:  .word 1 ;pointer to function
+	#post_vsync_user_callback: .word 1 ;pointer to function
+	pre_vsync_user_callback:  .space 4 ;pointer to function
+	post_vsync_user_callback: .space 4 ;pointer to function
 
-	first_render_line:		.byte 1
-	render_lines_count: 	.byte 1
+	first_render_line:		.space 1
+	render_lines_count: 	.space 1
 
-	first_render_line_tmp:	.byte 1
-	render_lines_count_tmp: .byte 1
+	first_render_line_tmp:	.space 1
+	render_lines_count_tmp: .space 1
 
 	
 	;last read results of joypads
-	joypad1_status_lo:	.byte 1
-						.byte 1
-	joypad1_status_hi:	.byte 1
-						.byte 1
+	joypad1_status_lo:	.space 1
+						.space 1
+	joypad1_status_hi:	.space 1
+						.space 1
 
-	joypad2_status_lo:	.byte 1
-						.byte 1
-	joypad2_status_hi:	.byte 1
-						.byte 1
+	joypad2_status_lo:	.space 1
+						.space 1
+	joypad2_status_hi:	.space 1
+						.space 1
 
 
 .section .text

@@ -130,6 +130,8 @@ SCORE *scores;
 #include 	"space_game.h"
 #include 	"space_levels.h"
 
+// fix
+//#include <avr/pgmspace.h>
 
 #define XREZ ((u8) xrez)
 #define YREZ ((u8) yrez)
@@ -324,7 +326,7 @@ const char txt_continue_exit1[] PROGMEM = " CONTINUE ";
 const char txt_continue_exit2[] PROGMEM = " EXIT ";
 
 
-const char txt_pjones[] PROGMEM = "@ JONES 2013";
+const char txt_pjones[] PROGMEM = "@ JONES 2013 AND RA 2023";
 const char txt_get_ready[] PROGMEM = "ACTIVATE";
 const char txt_blank10[] PROGMEM = "               ";
 const char txt_blank3[] PROGMEM = "   ";
@@ -351,7 +353,10 @@ const char txt_music_off[] PROGMEM=  " MUSIC OFF";
 
 
 
-const char *txt_player[2] PROGMEM =
+//const char *txt_player[2] PROGMEM =
+//PGM_P char txt_player[2] PROGMEM =
+//PGM_P txt_player[2] PROGMEM =
+const char *txt_player[2] =
 {
 	txt_playerone,
 	txt_playertwo

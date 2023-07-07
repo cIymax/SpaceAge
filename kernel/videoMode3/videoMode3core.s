@@ -87,16 +87,16 @@
 
 	sprites_tile_banks: 	.space 8
 	vram_linear_buf:		.space 30
-	tile_table_lo:			.byte 1
-	tile_table_hi:			.byte 1
-	font_tile_index:		.byte 1 
+	tile_table_lo:			.space 1
+	tile_table_hi:			.space 1
+	font_tile_index:		.space 1 
 
 	#if SCROLLING == 1
 		;ScreenType struct members
 	Screen:
-		overlay_height:			.byte 1
-		screen_scrollX:			.byte 1
-		screen_scrollY:			.byte 1
+		overlay_height:			.space 1
+		screen_scrollX:			.space 1
+		screen_scrollY:			.space 1
 	#endif
 
 .section .text

@@ -1677,7 +1677,9 @@ u16 ts_palette[256]={
 
 #endif
 
-const unsigned char *sprite_table[34] PROGMEM ={
+//const unsigned char *sprite_table[34] PROGMEM ={
+//PGM_P unsigned char sprite_table[34] PROGMEM ={	
+const unsigned char *sprite_table[34] ={
 baddie_100_smap,
 baddie_400_smap,
 baddie_d_a_smap,
