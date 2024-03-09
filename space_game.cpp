@@ -130,8 +130,6 @@ SCORE *scores;
 #include 	"space_game.h"
 #include 	"space_levels.h"
 
-// fix
-//#include <avr/pgmspace.h>
 
 #define XREZ ((u8) xrez)
 #define YREZ ((u8) yrez)
@@ -326,7 +324,7 @@ const char txt_continue_exit1[] PROGMEM = " CONTINUE ";
 const char txt_continue_exit2[] PROGMEM = " EXIT ";
 
 
-const char txt_pjones[] PROGMEM = "@ JONES 2013 AND RA 2023";
+const char txt_pjones[] PROGMEM = "@ JONES 2013";
 const char txt_get_ready[] PROGMEM = "ACTIVATE";
 const char txt_blank10[] PROGMEM = "               ";
 const char txt_blank3[] PROGMEM = "   ";
@@ -351,12 +349,14 @@ const char txt_time_bonus[] PROGMEM= "TIME BONUS";
 const char txt_music_on[] PROGMEM=   " MUSIC ON ";
 const char txt_music_off[] PROGMEM=  " MUSIC OFF";
 
+//expansion
+const char txt_forker[] PROGMEM = "DIRECTOR'S CUT BY CLYMAX";
+const char txt_RA[] PROGMEM = "FOR RETROACHIEVEMENTS.ORG";
+
 
 
 //const char *txt_player[2] PROGMEM =
-//PGM_P char txt_player[2] PROGMEM =
-//PGM_P txt_player[2] PROGMEM =
-const char *txt_player[2] =
+const char * const txt_player[2] PROGMEM =
 {
 	txt_playerone,
 	txt_playertwo
@@ -597,7 +597,8 @@ const u8 frames_baddie_walk[] PROGMEM =
 
 };
 
-
+// expansion
+bool inputEdge = false;
 
 void	tile_frame( int a, int x1, int y1, int x2, int y2 )
 {
@@ -1701,7 +1702,9 @@ void	draw_supa(u8 index)
 			if (read_map(mx,my)==BLOCK_HOLE)
 			{
 				sound(SFX_STUN,SD_NORMAL);
-    			set_map(mx,my,BLOCK_SUPAFIXED);
+				// expansion
+    			//set_map(mx,my,BLOCK_SUPAFIXED);
+				set_map(mx,my,BLOCK_FLOOR);
 				supa_trigger[index]=-1;
 				supa_done--;
 			}
@@ -1841,7 +1844,7 @@ void	do_player2()
     if (pad(JOY_RIGHT)) k=1;
 	if (pad(JOY_DOWN)) 	k=2;
     if (pad(JOY_LEFT)) 	k=3;
-
+	
 	if (k!=-1)
 	{
 		player_dir=(u8) k;
@@ -1907,6 +1910,18 @@ void	do_player2()
 			}
 		}
 		player_kicked = KICK_DELAY;
+	}
+	
+	// expansion: do about-face
+	if (pad(JOY_RS)) {
+		 if (!inputEdge) {
+			inputEdge = true;
+			player_dir+=2;
+			if (player_dir>3) player_dir-=4;
+		 }
+	}
+	else {
+		inputEdge = false;
 	}
 }
 
@@ -2714,8 +2729,15 @@ void draw_main()
 		    	ucprintx(txt_blank10);
 #endif
 
-			ugo(XREZ/2,YREZ-8);
+			//ugo(XREZ/2,YREZ-8);
+			ugo(XREZ/2,YREZ-40);
 			ucprintx(txt_pjones);
+			
+			//expansion
+			ugo(XREZ/2,YREZ-24);
+			ucprintx(txt_forker);
+			ugo(XREZ/2,YREZ-8);
+			ucprintx(txt_RA);
 }
 
 

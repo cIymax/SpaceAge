@@ -2876,10 +2876,7 @@ u16 ts_palette[256]={
 #endif
 
 //const unsigned char *tsprite_table[59] PROGMEM ={
-//PGM_P unsigned tsprite_table[59] PROGMEM ={
-//PGM_P tsprite_table[59] PROGMEM ={
-//U_PGM_P tsprite_table[59] PROGMEM ={
-const unsigned char *tsprite_table[59] ={
+const unsigned char * const tsprite_table[59] PROGMEM ={
 a0_logo_smap,
 a1_charset_smap,
 a1_fader_smap,
