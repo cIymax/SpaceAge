@@ -2683,7 +2683,7 @@ void draw_main()
 			sound(SFX_SHOOT,SD_NORMAL);
 			number_of_players=1;
 		  	g_frame=0;
-      		ugo(XREZ/2,15*8);
+      		ugo(XREZ/2,11*8);
 		 	ucprintx_blank(txt_1player);
 		}
 		if (xpad(JOY_DOWN))
@@ -2691,27 +2691,29 @@ void draw_main()
 			sound(SFX_SHOOT,SD_NORMAL);
 			number_of_players=2;
 			g_frame=0;
-			ugo(XREZ/2,17*8);
+			ugo(XREZ/2,13*8);
 		 	ucprintx_blank(txt_2player);
 		}
 
-	    ugo(XREZ/2,15*8);
+	    ugo(XREZ/2,11*8);
 		if (number_of_players==1)
 	   	ucprintx_dot(txt_1player);
 		else
 	    ucprintx(txt_1player);
 
 
-		ugo(XREZ/2,17*8);
+		ugo(XREZ/2,13*8);
 		if (number_of_players==2)
 		ucprintx_dot(txt_2player);
 		else
 	    ucprintx(txt_2player);
 
 		// clear marker
-		ugo((XREZ/2)-6*8,15*8);
+		//ugo((XREZ/2)-6*8,15*8);
+		ugo((XREZ/2)-6*8,11*8);
 	   	uprintc(' ');
-	    ugo((XREZ/2)-6*8,17*8);
+	    //ugo((XREZ/2)-6*8,17*8);
+		ugo((XREZ/2)-6*8,13*8);
 	   	uprintc(' ');
 
 		if (((g_frame>>3)&1))
@@ -2730,13 +2732,14 @@ void draw_main()
 #endif
 
 			//ugo(XREZ/2,YREZ-8);
-			ugo(XREZ/2,YREZ-40);
+			//ugo(XREZ/2,YREZ-40);
+			ugo(XREZ/2,YREZ-72);
 			ucprintx(txt_pjones);
 			
 			//expansion
-			ugo(XREZ/2,YREZ-24);
+			ugo(XREZ/2,YREZ-40);
 			ucprintx(txt_forker);
-			ugo(XREZ/2,YREZ-8);
+			ugo(XREZ/2,YREZ-24);
 			ucprintx(txt_RA);
 }
 
