@@ -3054,7 +3054,8 @@ void move_bullets()
 			{
 				bullet_life[i]=0;
 			}
-			else if ( ok == BLOCK_SUPA || ok == BLOCK_SUPAFIXED )
+			//else if ( ok == BLOCK_SUPA || ok == BLOCK_SUPAFIXED )
+			else if ( ok == BLOCK_SUPA )
 			{
 				index = read_map_index(mx,my);
 				if (supa_trigger[index]==0)
