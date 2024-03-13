@@ -1703,8 +1703,8 @@ void	draw_supa(u8 index)
 			{
 				sound(SFX_STUN,SD_NORMAL);
 				// expansion
-    			//set_map(mx,my,BLOCK_SUPAFIXED);
-				set_map(mx,my,BLOCK_FLOOR);
+    			set_map(mx,my,BLOCK_SUPAFIXED);
+				//set_map(mx,my,BLOCK_FLOOR);
 				supa_trigger[index]=-1;
 				supa_done--;
 			}
@@ -1862,7 +1862,9 @@ void	do_player2()
 	if (ok==BLOCK_OXYGEN)
 	{
 		sound(SFX_PICKUP,SD_NORMAL);
-		g_oxygen+=4;
+		//g_oxygen+=4;
+		//expansion
+		g_oxygen+=6;
 		nx=x+spd[k].x;
 		ny=y+spd[k].y;
 		TSPRITE(FLOOR_TILE_D_TSP,MUL16(nx)+xoff,MUL16(ny)+yoff);
@@ -3052,7 +3054,7 @@ void move_bullets()
 			{
 				bullet_life[i]=0;
 			}
-			else if ( ok == BLOCK_SUPA )
+			else if ( ok == BLOCK_SUPA || ok == BLOCK_SUPAFIXED )
 			{
 				index = read_map_index(mx,my);
 				if (supa_trigger[index]==0)
@@ -3468,7 +3470,9 @@ void new_level()
 
 	srand(1000-level[current_player]);
 	scores=0;
-	g_oxygen = 18;
+	//g_oxygen = 18;
+	//expansion
+	g_oxygen = 26;
 	supa_count=0;
 
 	for(i=0;i<4;i++)
