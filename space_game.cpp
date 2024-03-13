@@ -1703,8 +1703,8 @@ void	draw_supa(u8 index)
 			{
 				sound(SFX_STUN,SD_NORMAL);
 				// expansion
-    			set_map(mx,my,BLOCK_SUPAFIXED);
-				//set_map(mx,my,BLOCK_FLOOR);
+    			//set_map(mx,my,BLOCK_SUPAFIXED);
+				set_map(mx,my,BLOCK_FLOOR);
 				supa_trigger[index]=-1;
 				supa_done--;
 			}
